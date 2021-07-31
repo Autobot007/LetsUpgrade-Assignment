@@ -1,0 +1,78 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(250, 209, 156);
+}
+
+header {
+    background-color: rgb(233, 152, 1);
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.bloghost {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.content {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.para {
+    font-size: 25px;
+}
+
+.seccom {
+    display: block;
+    margin-top: 20px;
+    margin: auto;
+    padding: 5px;
+    width: 600px;
+    border: 6px dotted black;
+    border-radius: 20px;
+}
+
+.comment {
+    margin: 40px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    font-size: 20px;
+    font-weight: 100;
+    justify-items: center;
+}
+
+#comment {
+    text-align: center;
+    font-size: large;
+    height: 145px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#email,
+#name {
+    font-size: large;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#submit {
+    font-size: large;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
